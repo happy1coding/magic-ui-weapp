@@ -1,0 +1,41 @@
+<!--pages/magic-popup_Ex/index.wxml-->
+<Container navBarOptions='{{navBarOptions}}'>
+	<view class='popup_ex'>
+		<view class='label'>底部弹出</view>
+		<view class='box'>
+			<magic-button onTap='btnTap' text='底部弹出' />
+		</view>
+		<view class='label'>顶部弹出</view>
+		<view class='box'>
+			<magic-button onTap='btnTap1' text='顶部弹出' />
+		</view>
+		<view class='label'>左边弹出</view>
+		<view class='box'>
+			<magic-button onTap='btnTap2' text='左边弹出' />
+		</view> 
+		<view class='label'>右边弹出</view>
+		<view class='box'>
+			<magic-button onTap='btnTap3' text='右边弹出' />
+		</view>
+		<view class='label'>自定义弹出速度</view>
+		<view class='box'>
+			<magic-button onTap='btnTap4' text='自定义弹出速度' />
+		</view>
+		<magic-popup id='pop'>
+			<view class="white_block" />
+		</magic-popup>
+		<magic-popup id='pop1' position='top'>
+			<view class="white_block1" />
+		</magic-popup>
+		<magic-popup id='pop2' position='left'>
+			<view class="white_block2" />
+		</magic-popup>
+		<magic-popup id='pop3' position='right'>
+			<view class="white_block3" />
+		</magic-popup>
+		<magic-popup id='pop4' speed='{{100}}'>
+			<view class="white_block" />
+		</magic-popup>
+	</view>
+</Container>
+

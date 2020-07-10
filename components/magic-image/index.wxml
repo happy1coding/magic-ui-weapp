@@ -1,0 +1,13 @@
+<!--components/magicImage/magicImage.wxml-->
+<view class='magic_image' style="width:{{width}};height:{{defaultHeight}}">
+  <image 
+        src="{{src}}" 
+        mode="{{mode}}" 
+        class='magic_image_body' 
+        style='opacity:{{ready?1:0}};height:{{height}}' 
+        bindload="loadImage"
+    />
+  <view class='magic_image_bg' style="opacity:{{ready?0:1}}">
+      <image src="{{default}}" mode="widthFix" class="default"/>
+  </view>
+</view>

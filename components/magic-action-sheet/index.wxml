@@ -1,0 +1,22 @@
+<view class="ActionSheet-container">
+	<popup id='magic_popup'>
+		<view class="ActionSheet-box">
+			<view class="common-area">
+				<view
+                    class="commonBtn"
+                    hover-class="common-hover"
+                    wx:for="{{list}}"
+                    wx:key="common"
+                    bindtap='commonTap'
+                    data-index='{{index}}'
+                    style="{{index==0?'border:none':''}}"
+				>{{item}}
+				</view>
+			</view>
+			<view class="block" wx:if="{{showCancel}}"/>
+			<view class="functionBtn" hover-class="common-hover" wx:if="{{showCancel}}" bindtap='hide'>取消</view>
+            <view class="block2"></view>
+		</view>
+	</popup>
+</view>
+

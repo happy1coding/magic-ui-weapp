@@ -1,0 +1,40 @@
+<Container navBarOptions='{{navBarOptions}}'>
+  <view style="padding:40rpx">
+  <view>支持iconfont ant-design 600个图标 详情可参考文档</view>    
+  <view>
+    <Icon type='cloud-sync'></Icon>
+    <Icon type='cloud-sync' color='blue' size='40rpx'></Icon>
+    <Icon type='cloud-sync' color='red' size='60rpx'></Icon>
+    <Icon type='cloud-sync' color='green' size='80rpx'></Icon>
+    <Icon type='cloud-sync' color='orange' size='100rpx'></Icon>
+  </view>
+  <view>
+    <Icon type='IE'></Icon>
+    <Icon type='IE' color='blue' size='40rpx'></Icon>
+    <Icon type='IE' color='red' size='60rpx'></Icon>
+    <Icon type='IE' color='green' size='80rpx'></Icon>
+    <Icon type='IE' color='orange' size='100rpx'></Icon>
+  </view>
+    <view>
+    <Icon type='amazon-circle-fill '></Icon>
+    <Icon type='amazon-circle-fill ' color='blue' size='40rpx'></Icon>
+    <Icon type='amazon-circle-fill ' color='red' size='60rpx'></Icon>
+    <Icon type='amazon-circle-fill ' color='green' size='80rpx'></Icon>
+    <Icon type='amazon-circle-fill ' color='orange' size='100rpx'></Icon>
+  </view>
+    <view>
+    <Icon type='smile '></Icon>
+    <Icon type='smile ' color='blue' size='40rpx'></Icon>
+    <Icon type='smile ' color='red' size='60rpx'></Icon>
+    <Icon type='smile ' color='green' size='80rpx'></Icon>
+    <Icon type='smile ' color='orange' size='100rpx'></Icon>
+  </view>
+  <view>
+    <Icon type='bug-fill '></Icon>
+    <Icon type='bug-fill ' color='blue' size='40rpx'></Icon>
+    <Icon type='bug-fill ' color='red' size='60rpx'></Icon>
+    <Icon type='bug-fill ' color='green' size='80rpx'></Icon>
+    <Icon type='bug-fill ' color='orange' size='100rpx'></Icon>
+  </view>
+  </view>
+</Container>
